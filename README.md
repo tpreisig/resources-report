@@ -6,11 +6,16 @@ This is a Reflex-based web application that visualizes resource usage data acros
 
 ## Features
 
-- **Interactive Bar Chart**: Displays resource usage data for the five categories (`YRIB`, `XRON`, `SKIR`, `KABL`, `FRET`) across four months (January to April 2025).
-- **Category Buttons**: Clicking on a category button (`YRIB`, `XRON`, `SKIR`, `KABL`, `FRET`) prints resource usage details to the console and shows a toast notification with the data for the last month.
+- **Interactive Bar Chart**: Displays resource usage data for the categories (`YRIB`, `XRON`, `SKIR`, `KABL`, `FRET`) across four months (January to April 2025).
+- **Feedback Buttons**: Clicking on a category button (`YRIB`, `XRON`, `SKIR`, `KABL`, `FRET`) prints resource usage details to the console and shows a toast notification with the data for the last month.
 - **New Report Generation**: The "New Report" button generates random resource data for all categories and months, updating the chart dynamically.
 - **Dark/Light Mode**: Includes a toggle for switching between light and dark themes.
 - **Responsive Design**: The UI is centered and styled with a modern, shadowed card layout, ensuring a clean and professional appearance.
+
+## Visualization
+
+![Screenshot](assets/vis_1.png)
+![Screenshot](assets/vis_2.png)
 
 ## Technologies Used
 
@@ -48,12 +53,6 @@ This is a Reflex-based web application that visualizes resource usage data acros
   - Renders a centered layout with a heading, category buttons, a "New Report" button, and a bar chart.
   - Uses `rx.recharts` for the bar chart, with customized styling, axes, legend, and grid.
   - Applies dynamic styling based on the color mode (light/dark).
-
-## Visualization
-
-![Screenshot](assets/vis_1.png)
-
-![Screenshot](assets/vis_2.png)
 
 ## License
 
